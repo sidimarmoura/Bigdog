@@ -1,0 +1,157 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffb300;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#menu1 nav ul {
+    list-style: none;
+}
+
+#menu1 nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#menu1 nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#menu1 nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+h2 {
+  color: #ff0000;
+}
+h3 {
+  color: #ff5900;
+}
+img {
+  width: 50vw;
+  height: 20vh;
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px #913c0f;
+}
+input {
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 4px 4px 4px;
+  background-color: #a19189;
+}
+textarea {
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 4px 4px 4px;
+  background-color: #a19189;
+}
+button {
+  border-radius: 10px;
+  box-shadow: 4px 4x 7px black;
+  transition: background-color 0.3s ease-in-out;
+}
+#menu1 {
+  display: flex ;
+  justify-content: center;
+  background-color: #ab5426;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
