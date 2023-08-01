@@ -155,3 +155,21 @@ button {
   left: 0;
   width: 100%;
 }
+/* Media queries para ajustar o layout em tamanhos diferentes de tela */
+@media (max-width: 768px) {
+  header {
+    height: 20vh;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 15vh;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
